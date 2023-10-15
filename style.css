@@ -1,0 +1,47 @@
+body{
+    font-family: Netflix Sans, Helvetica Neue, Arial, Segoe UI, Roboto, Ubuntu, sans-serif;
+    background-color: black;
+}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    padding: 20px 170px; 
+}
+header a.logo{
+    display: block;
+    
+}
+header .logo svg{
+    fill: #e50914;
+    height: 2.5rem;
+    width: 9.25rem;
+}
+header div+div{
+    text-align: right;
+}
+header a.button{
+    display: inline-block;
+    background-color:#e50914 ;
+    color:#fff;
+    text-decoration: none;
+    padding: 7px 17px;
+    border-radius: 3px;
+}
+header select{
+    background: transparent;
+    color: #fff;
+    padding: 6px 0 6px 20px;
+    border-radius: 3px;
+
+}
+header div.select{
+    display: inline-block;
+    margin-right: 30px;
+}
+header div.select svg{
+    height: 20px;
+    fill: #fff;
+    position:absolute;
+    margin-top: 5px ;
+    margin-left: 4px;+
+}
